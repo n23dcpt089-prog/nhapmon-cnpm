@@ -1,0 +1,37 @@
+<div class="stream-container">
+    <div class="video-section">
+        <div class="video-player">
+            <span class="badge">LIVE</span>
+            <div class="overlay-controls">
+                <button>Mic</button>
+                <button>Camera</button>
+                <button class="btn-stop">Dừng Stream</button>
+            </div>
+        </div>
+        <div class="stream-info">
+            <h3>Mô phỏng buổi Livestream công nghệ</h3>
+            <p>1,240 người đang xem • Bắt đầu 15 phút trước</p>
+        </div>
+    </div>
+    <div class="chat-section">
+        <div class="chat-header">Trò chuyện trực tiếp</div>
+        <div class="chat-messages">
+            <p><strong>Khang:</strong> Chào mọi người nhé!</p>
+            <p><strong>Admin:</strong> Buổi live đang chạy ổn định.</p>
+        </div>
+        <div class="chat-input">
+            <input type="text" placeholder="Nhập tin nhắn...">
+        </div>
+    </div>
+</div>
+
+.stream-container { display: flex; height: 100vh; background: #1a1a1a; color: white; }
+.video-section { flex: 3; padding: 20px; display: flex; flex-direction: column; }
+.video-player { flex: 1; background: #000; position: relative; border-radius: 8px; border: 1px solid #333; }
+.badge { position: absolute; top: 15px; left: 15px; background: red; padding: 4px 10px; border-radius: 4px; font-size: 12px; }
+.overlay-controls { position: absolute; bottom: 20px; left: 50%; transform: translateX(-50%); display: flex; gap: 10px; }
+.chat-section { flex: 1; background: #222; border-left: 1px solid #333; display: flex; flex-direction: column; }
+.chat-header { padding: 15px; border-bottom: 1px solid #333; font-weight: bold; }
+.chat-messages { flex: 1; padding: 15px; overflow-y: auto; font-size: 14px; }
+.chat-input { padding: 15px; }
+.chat-input input { width: 100%; background: #333; border: none; padding: 10px; color: white; border-radius: 4px; }
