@@ -1,4 +1,15 @@
+
+.login-container { display: flex; justify-content: center; align-items: center; height: 100vh; background: #f4f7f6; font-family: 'Segoe UI', sans-serif; }
+.login-card { background: white; padding: 40px; border-radius: 12px; box-shadow: 0 10px 25px rgba(0,0,0,0.1); width: 350px; text-align: center; }
+.input-field { width: 100%; padding: 12px; margin: 10px 0; border: 1px solid #ddd; border-radius: 6px; box-sizing: border-box; }
+.btn-login { width: 100%; padding: 12px; background: #007bff; color: white; border: none; border-radius: 6px; cursor: pointer; }
+.separator { margin: 20px 0; position: relative; border-bottom: 1px solid #eee; }
+.separator span { position: absolute; top: -10px; left: 50%; transform: translateX(-50%); background: white; padding: 0 10px; color: #888; }
+.btn-social { width: 100%; padding: 10px; margin-top: 10px; border: 1px solid #ddd; border-radius: 6px; background: white; display: flex; align-items: center; justify-content: center; cursor: pointer; font-weight: 500; }
+.btn-social img { width: 18px; margin-right: 10px; }
 <div class="login-container">
+
+
     <div class="login-card">
         <h2>Đăng Nhập Hệ Thống</h2>
         <form>
@@ -19,3 +30,4 @@
         </div>
     </div>
 </div>
+
