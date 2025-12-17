@@ -1,0 +1,21 @@
+<div class="login-container">
+    <div class="login-card">
+        <h2>Đăng Nhập Hệ Thống</h2>
+        <form>
+            <input type="text" placeholder="Tên đăng nhập" class="input-field">
+            <input type="password" placeholder="Mật khẩu" class="input-field">
+            <button class="btn-login">Đăng nhập</button>
+        </form>
+        <div class="separator"><span>Hoặc</span></div>
+        <div class="social-group">
+            <button class="btn-social google">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg" alt="G"> 
+                Tiếp tục với Google
+            </button>
+            <button class="btn-social facebook">
+                <img src="https://upload.wikimedia.org/wikipedia/en/0/04/Facebook_f_logo_%282021%29.svg" alt="F"> 
+                Tiếp tục với Facebook
+            </button>
+        </div>
+    </div>
+</div>
